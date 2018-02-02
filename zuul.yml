@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: zuul
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  
+zuul:
+  routes:
+    pdf:
+      path: /pdf/**
+      serviceId: test
