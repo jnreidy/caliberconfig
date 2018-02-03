@@ -16,4 +16,4 @@ zuul:
       path: /pdf/**
       serviceId: pdf
   host: 
-    socket-timeout-millis=30000
+    socket-timeout-millis: 30000
