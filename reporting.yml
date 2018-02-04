@@ -21,6 +21,7 @@ spring:
 revature: 
   caliber: 
     service: 
+      exchange: revature.caliber.service
       address: address
       assessment: assessment
       batch: batch
