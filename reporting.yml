@@ -33,4 +33,9 @@ revature:
       trainee: trainee
       trainer: trainer
       batchList: batchList
+      noteList: noteList
+      traineeList: traineeList
+      panelList: panelList
+      gradeList: gradeList
+      assessmentList: assessmentList
       
