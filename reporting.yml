@@ -32,4 +32,5 @@ revature:
       salesforce: salesforce
       trainee: trainee
       trainer: trainer
+      batchList: batchList
       
