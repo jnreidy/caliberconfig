@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: salesforce-service
+    name: salesforce
 
 eureka:
   instance:
