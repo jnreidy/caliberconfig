@@ -1,0 +1,18 @@
+server:
+  port: 8910
+security:
+  basic: 
+    enabled: false
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  rabbitmq:
+    host: ec2-34-227-76-119.compute-1.amazonaws.com
+    port: 5672
+    username: guest
+    password: guest
