@@ -12,9 +12,7 @@ spring:
     host: ec2-35-168-22-185.compute-1.amazonaws.com
     port: 5672
     username: user
-    password: user
-  application:
-    name: email-service    
+    password: user    
     
 eureka:
   instance:
