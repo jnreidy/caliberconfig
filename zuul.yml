@@ -18,6 +18,9 @@ zuul:
     types:
       path: /types/**
       serviceId: types
+    trainer:
+      path: /trainer/**
+      serviceId: trainer
   host: 
     connect-timeout-millis: 300000
     socket-timeout-millis: 300000
