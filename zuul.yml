@@ -12,6 +12,12 @@ eureka:
 
 zuul:
   routes:
+    grade:
+      path: /trainer/grade/**
+      serviceId: gradeRepository
+    grade_all:
+      path: /all/grades/**
+      serviceId: gradeRepository
     pdf:
       path: /pdf/**
       serviceId: pdf
@@ -36,9 +42,6 @@ zuul:
     salesforce_all:
       path: /all/**
       serviceId: salesforce
-    note:
-      path: /note/**
-      serviceId: note
   host:
     connect-timeout-millis: 300000
     socket-timeout-millis: 300000
