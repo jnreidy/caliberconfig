@@ -24,6 +24,12 @@ zuul:
     assessment:
       path: /assessment/**
       serviceId: assessment
+    trainee:
+      path: /trainee/**
+      serviceId: trainee
+    batch:
+      path: /batch/**
+      serviceId: batch
   host: 
     connect-timeout-millis: 300000
     socket-timeout-millis: 300000
