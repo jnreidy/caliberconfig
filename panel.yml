@@ -20,7 +20,7 @@ spring:
     platform: h2
     url: jdbc:h2:mem:testdb;MODE=Oracle
   rabbitmq:
-    host: ec2-35-168-22-185.compute-1.amazonaws.com
+    host: ec2-34-227-76-119.compute-1.amazonaws.com
     port: 5672
-    username: user
-    password: user
+    username: guest
+    password: guest
