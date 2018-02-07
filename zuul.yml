@@ -36,6 +36,9 @@ zuul:
     salesforce_all:
       path: /all/**
       serviceId: salesforce
+    note:
+      path: /note/**
+      serviceId: note
   host:
     connect-timeout-millis: 300000
     socket-timeout-millis: 300000
