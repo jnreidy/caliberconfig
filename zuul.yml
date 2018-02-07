@@ -24,6 +24,12 @@ zuul:
     assessment:
       path: /assessment/**
       serviceId: assessment
+    trainee:
+      path: /trainee/**
+      serviceId: trainee
+    batch:
+      path: /batch/**
+      serviceId: batch
     salesforce:
       path: /salesforce/**
       serviceId: salesforce
