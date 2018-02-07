@@ -14,10 +14,10 @@ zuul:
   routes:
     grade:
       path: /trainer/grade/**
-      serviceId: gradeRepository
+      serviceId: grade
     grade_all:
       path: /all/grades/**
-      serviceId: gradeRepository
+      serviceId: grade
     pdf:
       path: /pdf/**
       serviceId: pdf
