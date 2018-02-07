@@ -21,6 +21,9 @@ zuul:
     trainer:
       path: /trainer/**
       serviceId: trainer
+    assessment:
+      path: /assessment/**
+      serviceId: assessment
   host: 
     connect-timeout-millis: 300000
     socket-timeout-millis: 300000
