@@ -51,7 +51,5 @@ zuul:
     panelfeedback:
       path: /panelfeedback/**
       serviceId: panelfeedback
-
-  host:
-    connect-timeout-millis: 300000
-    socket-timeout-millis: 300000
+ribbon: 
+  ReadTimeout: 300000
