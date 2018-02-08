@@ -51,5 +51,8 @@ zuul:
     panelfeedback:
       path: /panelfeedback/**
       serviceId: panelfeedback
+    security:
+      path: /security/**
+      serviceId: security
 ribbon: 
   ReadTimeout: 300000
