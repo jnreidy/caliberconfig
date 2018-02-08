@@ -5,6 +5,10 @@ spring:
   application:
     name: zuul
 
+security:
+  basic: 
+    enabled: false
+
 eureka:
   client:
     serviceUrl:
