@@ -6,3 +6,6 @@ eureka:
     fetchRegistery: false
   server:
     enableSelfPreservation: false
+security:
+  basic:
+    enabled: false
